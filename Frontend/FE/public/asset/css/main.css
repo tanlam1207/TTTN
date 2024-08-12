@@ -1,0 +1,43 @@
+.card-product-grid {
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(107, 102, 102, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .overlay-content {
+    color: #fff;
+    padding-bottom: 160px;
+  }
+  
+  .overlay-content a.btn {
+    margin: 5px;
+    
+  }
+  
+  .card-product-grid:hover .overlay {
+    opacity: 1;
+  }
+  .title_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .widthInput
+  {
+    width: 40%;
+  }
+  .widthInputv
+  {
+    /* width: 16%; */
+    text-align: center;
+  }
+  .icon-flag-cs
+  {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
